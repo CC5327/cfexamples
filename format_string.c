@@ -7,7 +7,7 @@ void format_string(char *name) {
     char a = 'a';
     int x = 1234;
     float z = 1.23;
-    strncpy(dest, name, 1000);
+    strncpy(dest, name, 100);
     printf(name);
     printf("\n");
 }
